@@ -31,6 +31,10 @@ project2/
 └── style.css                                   # Stylesheet for layout and design
 ```
 
+## Repository Details
+- **Suggested Repository Name:** `insect-specimen-ui`
+- **Initial Commit Message:** `Initial commit: Add insect specimen landing page and README`
+
 ## How to Run
 Since this is a static webpage built with raw HTML and CSS, no complex setup or local server is required to view it.
 1. Clone or download the repository to your local machine.
@@ -40,4 +44,4 @@ Since this is a static webpage built with raw HTML and CSS, no complex setup or 
 ## Design Reference
 The structure, typography choices, color palette, and component placements were replicated based on the `assets/image (3).png` design mockup. The goal was to practice advanced UI implementation using CSS techniques like flexbox, absolute positioning, and custom form elements.
 
-![Design Reference Image](./assets/image\ \(3\).png)
+![Design Reference Image](./assets/image%20(3).png)
