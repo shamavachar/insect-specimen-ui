@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+        font-family: Inter;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+main .left-section{
+    height: 100%;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    padding-left: 3%;
+}
+
+.left-section .left-top{
+    /* background-color: aqua; */
+    /* padding-left: 7%; */
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    height: 15%;
+}
+
+.left-section .left-top h2{
+    color: #143029;
+    font-size: 25px;
+}
+
+.left-section .left-section .searchbar{
+    position: relative;
+}
+
+.left-section .left-top .searchbar input{
+    padding: 12px 22px 12px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #EFEFEF;
+    width:260px;
+    outline: none;
+}
+
+.left-section .left-top .searchbar input:placeholder-shown{
+    font-size: 14px;
+}
+
+.left-section .left-top .searchbar input:focus{
+    border:1px solid  #626262;
+}
+
+.left-section .left-top .searchbar i{
+    color: #626262;
+    font-size: 16px;
+    position: absolute;
+    top: 6.5%;
+    left: 24%;
+}
+
+.left-section .left-content{
+    height: 80%;
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 150px;
+    position: relative;
+    padding: 50px 100px 0px 10px;
+
+}
+
+.left-section .left-content .vertical-text{
+    position: relative;
+    font-family: 'Cormorant Garamond';
+}
+
+.left-section .left-content .vertical-text p{
+    writing-mode:sideways-lr;
+    font-size: 55px;
+    font-weight: 700;
+    color: #16312A;
+}
+
+.left-section .left-content .list-info{
+    height: 100%;
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.left-section .left-content .list-info .list-item{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 70%;
+    padding: 15px 0px 15px 0px;
+    gap: 7px;
+    /* background-color: #c67676; */
+    border-bottom: 1px solid #16312a3c;
+    position: relative;
+    color: #222222;
+}
+
+.left-section .left-content .list-info .list-item .dottitle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.left-section .left-content .list-info .list-item .dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #BD3D31;
+    position: absolute;
+    left: -20px;
+}
+
+.left-section .left-content .list-info .list-item h3{
+    font-size: 17px;
+}
+
+.left-section .left-content .list-info .list-item p{
+    /* padding-left:20px ; */
+    font-size: 15px;
+}
+
+.left-section .left-content .list-info .list-item .line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #143029;
+}
+
+.centerShowcase{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.centerShowcase img{
+    width: 310px;
+}
+
+.right-section{
+    height: 100%;
+    width: 50%;
+    background-color:#B32E27;
+}
+
+.right-section .navbar{
+        display: flex;
+    align-items: center;
+    /* gap: 30%; */
+    justify-content: space-around;
+    padding: 0px 30px 0px 30px;
+    height: 15%;
+    color: white;
+    /* background-color: antiquewhite; */
+}
+
+.right-section .navbar p{
+    font-size: 15px;
+    font-weight: 200;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;    /* Add this line */
+    padding-bottom: 3px; 
+}
+
+.right-section .navbar p:hover{
+    border-bottom: 1px solid white;
+}
+
+.right-section .right-content{
+    /* background-color: palevioletred; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.right-section .right-content .heading h1{
+    color: white;
+    font-family: Cormorant Garamond;
+    font-size: 50px;
+}
+
+.right-section .right-content .details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 50px;
+    gap: 25px;
+}
+
+.right-section .right-content .details .left-details{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.right-section .right-content .details .left-details img{
+    width: 60px;
+}
+
+.right-section .right-content .details .left-details p{
+    font-size: 13px;
+    color: white;
+    font-weight: 200;
+}
+
+.right-section .right-content .details .line{
+    height: 100px;
+    /* width: 1%; */
+    border: 1px solid rgba(255, 255, 255, 0.601);
+}
+
+.right-section .right-content .details .right-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+
+.right-section .right-content .details .right-data{
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+.right-section .right-content .details .right-data .ri-map-pin-2-fill{
+
+    color: #E3C39D;
+    font-size: 30px;
+}
+
+.right-section .right-content .details .right-data .ri-men-line{
+
+    color: #E3C39D;
+    font-size: 28px;
+}
+
+.right-section .right-content .details .right-data .ri-ruler-line{
+    color: white;
+    font-size: 28px;
+}
+
+
+.right-section .right-content .details .right-data p{
+    font-size: 12.5px;
+    font-weight: 200;
+    margin: 2px 0px 2px 0px;
+}
+
+
+.toggle{
+    width:35px;
+    height:20px;
+
+    background:#d9a99b;
+
+    border-radius:50px;
+
+    position:relative;
+
+    cursor:pointer;
+}
+
+.toggle::before{
+    content:"";
+
+    position:absolute;
+
+    width:12px;
+    height:12px;
+
+    background:white;
+
+    border-radius:50%;
+
+    top:4px;
+    left:4px;
+    cursor: pointer;
+}
+
+.pricecard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.pricecard h2{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #DABC92;
+    font-size: 30px;
+}
+
+
+.pricecard p{
+    font-weight: 200;
+    /* letter-spacing: 1.5px; */
+    color: white;
+    font-size: 13px;
+}
+
+.pricecard .view-deatils{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricecard button{
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: #DABC92;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
